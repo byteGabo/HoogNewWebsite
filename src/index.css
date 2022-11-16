@@ -1,13 +1,165 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*==========GOOGLE FONTS============*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+/*==========Variebles CSS============*/
+:root {
+  /*======Colors=======*/
+  --first-color: hsl(0, 99%, 64%);
+  --body-color: hsl(230, 10%, 12%);
+  --title-color: hsl(0, 0%, 100%);
+  --text-color: #fff;
+  --container-color: hsl(0, 0%, 19%);
+
+  /*======Font and Typography=======*/
+  /* .5rem = 8px | 1rem = 16 px ....*/
+  --body-font: "Rubik", sans-serif;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+
+  /*======Font Weight=======*/
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /*======Box Shadow=======*/
+  --shadow: 0px 5px 20px 0px rgb(69 67 96 / 10%);
+
+  /*======Border Radius=======*/
+  --border-radius: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Responsive typography */
+@media screen and (max-width: 1024px) {
+  :root {
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+
+/*===============Base================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2000' height='1200' preserveAspectRatio='none' viewBox='0 0 2000 1200'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1061%26quot%3b)' fill='none'%3e%3crect width='2000' height='1200' x='0' y='0' fill='rgba(28%2c 29%2c 34%2c 1)'%3e%3c/rect%3e%3cpath d='M1208.475447103144 206.5854892969352L1431.633609303608 72.49853781611168 1297.5466578227843-150.65962438435216 1074.3884956223205-16.572672903528627z' fill='rgba(48%2c 48%2c 48%2c 0.18)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1532.006%2c1263.518C1638.894%2c1268.722%2c1758.956%2c1267.485%2c1819.43%2c1179.195C1885.989%2c1082.021%2c1881.14%2c947.378%2c1815.563%2c849.539C1755.81%2c760.388%2c1639.054%2c742.688%2c1532.006%2c750.362C1439.683%2c756.981%2c1358.843%2c806.413%2c1311.09%2c885.704C1261.589%2c967.898%2c1240.856%2c1070.555%2c1289.288%2c1153.384C1337.354%2c1235.587%2c1436.895%2c1258.887%2c1532.006%2c1263.518' fill='rgba(48%2c 48%2c 48%2c 0.18)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M993.0088786029743 39.65506343181818L1148.362622224689 200.52857431295186 1309.2361331058225 45.17483069123725 1153.882389484108-115.69868018989644z' fill='rgba(48%2c 48%2c 48%2c 0.18)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M154.30702623577872 102.94426782506642L-61.35059290478699 283.9024965064854 119.60763577663201 499.56011564705113 335.2652549171977 318.60188696563216z' fill='rgba(48%2c 48%2c 48%2c 0.18)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M724.9448339988422 575.4250039919734L693.5018142551511 427.49722657287873 487.33165799835456 548.6256448979627z' fill='rgba(48%2c 48%2c 48%2c 0.18)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M501.61 699.7 a344.6 344.6 0 1 0 689.2 0 a344.6 344.6 0 1 0 -689.2 0z' fill='rgba(48%2c 48%2c 48%2c 0.18)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1362.7151753369387 258.27965176324506L1189.9794964297835 52.421285856442836 1156.8568094301365 431.01533067040043z' fill='rgba(48%2c 48%2c 48%2c 0.18)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M893.21 1104.39 a325.59 325.59 0 1 0 651.18 0 a325.59 325.59 0 1 0 -651.18 0z' fill='rgba(48%2c 48%2c 48%2c 0.18)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1494.2444192028966-7.942905701426671L1509.894570963491 290.6797792261635 1792.8671041304867-23.593057462021136z' fill='rgba(48%2c 48%2c 48%2c 0.18)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1061'%3e%3crect width='2000' height='1200' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;  
+  background-position: top;
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+span {
+  color: var(--title-color);
+  font-weight: var(--font-semibold);
+  line-height: 1.2;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/*============Resuable CSS Classes==================*/
+.container {
+  max-width: 1080px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.section {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.section__title {
+  font-size: var(--h1-font-size);
+  margin-left: 0.875rem;
+  font-weight: var(--font-bold);
+  position: relative;
+  margin-bottom: 3.75rem;
+}
+
+.section__title::before {
+  content: "";
+  background: url(./assets/dots-bg.svg);
+  height: 2.25rem;
+  width: 2.25rem;
+  position: absolute;
+  left: -0.875rem;
+  top: -0.875rem;
+}
+
+
+.btn {
+  padding: 0.75rem 2rem;
+  line-height: 1;
+  border-radius: 1.875rem;
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  border: 1px solid transparent;
+  color: #fff;
+  display: inline-block;
+  background-color: var(--first-color);
+  font-weight: var(--font-bold);
+}
+
+@keyframes button-push {
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btn:hover {
+  animation: button-push 0.3s linear 1;
 }
