@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="contact__info">
           <h3 className="contact__title">Hablemos!</h3>
           <p className="contact__details">
-            No te gustan los formularios? Envíanos un correo. 👋
+            Envíanos un correo. 👋
           </p>
         </div>
 
