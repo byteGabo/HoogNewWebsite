@@ -7,11 +7,11 @@ const HeaderSocials = () => {
         <i class="fa-brands fa-instagram"></i>
         </a>
 
-        <a href="#home" className="home__social-link" target="_blank">
+        <a href="https://www.facebook.com/holahoog" className="home__social-link" target="_blank">
         <i class="fa-brands fa-facebook"></i>
         </a>
 
-        <a href="#home" className="home__social-link" target="_blank">
+        <a href="https://wa.link/h7svyf" className="home__social-link" target="_blank">
         <i class="fa-brands fa-whatsapp"></i>
         </a>
 

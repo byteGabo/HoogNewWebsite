@@ -12,11 +12,11 @@ const Pricing = () => {
       <div className="pricing__container grid">
         <div className="price__item">
           <img src={Img1} alt="" className="pricing__img" />
-          <h3 className="pricing__plan">Basic</h3>
-          <p className="pricing__title">A Simple option but powerful to manage your business</p>
-          <p className="pricing__support">Email support</p>
+          <h3 className="pricing__plan">Premium</h3>
+          <p className="pricing__title">Hacemos crecer tus redes sociales, para generar mas interacción con el publico, calendarizacion de publicaciones y campañas pagadas.</p>
+          <p className="pricing__support">Soporte de Lun-Vie</p>
           <h3 className="price">
-            <em>Q</em> 1000 <span>al mes</span>
+            <em>Q</em> 1500 <span>al mes</span>
           </h3>
 
           <a href="" className="btn">Contratar</a>
@@ -25,9 +25,9 @@ const Pricing = () => {
         <div className="price__item best">
           <span className='badge'>Recomendado</span>
           <img src={Img2} alt="" className="pricing__img" />
-          <h3 className="pricing__plan">Premium</h3>
-          <p className="pricing__title">Unlimited product including app integration and more features</p>
-          <p className="pricing__support">Mon-Fri support</p>
+          <h3 className="pricing__plan">Emprendedor</h3>
+          <p className="pricing__title">Una forma de empezar con tus redes sociales, *4 diseños de post e historias a la semana, para todas la redes que elijas, incluye calendarizacion y propuestas de crecimiento.</p>
+          <p className="pricing__support">Soporte de Lun-Vie</p>
           <h3 className="price">
             <em>Q</em> 1000 <span>al mes</span>
           </h3>
@@ -37,10 +37,10 @@ const Pricing = () => {
         <div className="price__item">
           <img src={Img3} alt="" className="pricing__img" />
           <h3 className="pricing__plan">Ultimate</h3>
-          <p className="pricing__title">A wise option for large companies and individuals</p>
-          <p className="pricing__support">24/7 support</p>
+          <p className="pricing__title">Diseños ilimitados durante el mes, calendarización de contenido, servicio al cliente, rastreo de comentarios y chats para seguimientos de clientes, soporte de campañas pagadas.</p>
+          <p className="pricing__support">Soporte 24/7</p>
           <h3 className="price">
-            <em>Q</em> 2500 <span>al mes</span>
+            <em>Q</em> 2000 <span>al mes</span>
           </h3>
           <a href="" className="btn">Contratar</a>
         </div>

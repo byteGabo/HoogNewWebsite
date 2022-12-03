@@ -18,9 +18,10 @@
 }
 
 .home__description{
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
     font-weight: var(--font-bold);
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .home__socials{
@@ -96,6 +97,5 @@
     .home__social-link{
         font-size: 1.125rem;
     }
-
     
   }

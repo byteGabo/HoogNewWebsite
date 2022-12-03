@@ -8,23 +8,23 @@ const data = [
   {
     id:1,
     image: Img1,
-    title: "UI/UX design",
+    title: "Diseño de Redes Sociales",
     description:
-    "lorem ipsum solor sit amet consectetuer adipsicing elit aenean commondo liguala edget.",
+    "Las redes sociales juegan un papel muy importante para tu negocio hoy en día, por ello es vital tenerlas activas e ir creando una comunidad, en Hoog creamos los mejores diseños para tus redes sociales",
   },
   {
     id:2,
     image: Img2,
-    title: "Web development",
+    title: "Desarrolo Web",
     description:
-    "lorem ipsum solor sit amet consectetuer adipsicing elit aenean commondo liguala edget.",
+    "Las tres letras que pueden cambiar el rumbo de tu marca, un www será tu mejor aliado para estar presente y lograr el objetivo de tu marca.",
   },
   {
     id:3,
     image: Img3,
     title: "Branding",
     description:
-    "lorem ipsum solor sit amet consectetuer adipsicing elit aenean commondo liguala edget.",
+    "En Hoog creamos un estilo único para tu marca y generamos estrategias para lograr una marca profesional y exitosa dentro del mercado.",
   },
 ]
 

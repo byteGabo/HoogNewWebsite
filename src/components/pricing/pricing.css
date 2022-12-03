@@ -5,7 +5,7 @@
 
 .price__item{
     padding: 1.875rem 2.5rem;
-    background-color: var(--container-color);
+    background-color: #222327;
     text-align: center;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
@@ -48,7 +48,7 @@
     padding: 3.4rem 2.5rem;
     position: relative;
     z-index: 1;
-    background: #DBD053;
+    background: #79ADDC;
 }
 
 
