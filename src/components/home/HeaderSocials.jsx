@@ -15,7 +15,7 @@ const HeaderSocials = () => {
         <i class="fa-brands fa-whatsapp"></i>
         </a>
 
-        <a href="#home" className="home__social-link" target="_blank">
+        <a href="https://www.behance.net/gabrielchv" className="home__social-link" target="_blank">
         <i class="fa-brands fa-behance"></i>
         </a>
     </div>

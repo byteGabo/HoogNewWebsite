@@ -15,7 +15,7 @@ const data = [
   {
     id:2,
     image: Img2,
-    title: "Desarrolo Web",
+    title: "Desarrollo Web",
     description:
     "Las tres letras que pueden cambiar el rumbo de tu marca, un www será tu mejor aliado para estar presente y lograr el objetivo de tu marca.",
   },

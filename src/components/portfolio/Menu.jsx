@@ -12,6 +12,7 @@ const Menu = [
       image: Work1,
       title: "Social Media | Circusbar",
       category: "Design",
+      link: "https://www.behance.net/gallery/152915763/Social-Media-CircusBar-Xela",
     },
 
     {
@@ -19,6 +20,7 @@ const Menu = [
       image: Work2,
       title: "Social Media | La Bodeguita",
       category: "Design",
+      link: "https://www.behance.net/gallery/152971455/Social-Media-La-Bodeguita-Xela",
     },
 
     {
@@ -26,6 +28,7 @@ const Menu = [
       image: Work3,
       title: "Social Media | BurgerShop",
       category: "Design",
+      link: "https://www.behance.net/gallery/155392177/Social-Media-2022",
     },
 
     {
@@ -39,18 +42,21 @@ const Menu = [
       image: Work5,
       title: "Social Media | GoGreen Xela",
       category: "Design",
+      link: "https://www.behance.net/gallery/152915137/Social-Media-El-Pinche-Xela",
     },
     {
       id: 6,
       image: Work7,
       title: "Branding | LEICI",
       category: "Branding",
+      link:"https://www.behance.net/gallery/160218749/Leici-Branding",
     },
     {
       id: 7,
       image: Work6,
       title: "Branding | Taquisimo",
       category: "Branding",
+      link: "https://www.behance.net/gallery/116716551/Manual-de-Identidad-Taquisimo",
     },
   ];
 
