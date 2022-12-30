@@ -4,6 +4,7 @@ import Work3 from '../../assets/work3.png';
 import Work4 from '../../assets/work4.jpg';
 import Work5 from '../../assets/work5.jpg';
 import Work6 from '../../assets/work6.jpg';
+import Work7 from '../../assets/leici.png'
 
 const Menu = [
     {
@@ -41,6 +42,12 @@ const Menu = [
     },
     {
       id: 6,
+      image: Work7,
+      title: "Branding | LEICI",
+      category: "Branding",
+    },
+    {
+      id: 7,
       image: Work6,
       title: "Branding | Taquisimo",
       category: "Branding",

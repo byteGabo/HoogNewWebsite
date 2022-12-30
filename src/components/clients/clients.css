@@ -1,8 +1,28 @@
-.clients__container{
-    width: 200px;
-    margin: auto;
+.clientes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+
+.clientes img {
+    width: 200px;
+    margin: 10px;
+}
+
+
+@media  (max-width: 768px) {
+    .clientes img{
+        width: 150px;
+    }
+}
+
+
+@media  (max-width: 480px) {
+    .clientes img{
+        width: 100px;
+    }
+}
 
 
 

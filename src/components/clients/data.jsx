@@ -3,6 +3,7 @@ import Img2 from '../../assets/circus.png';
 import Img3 from '../../assets/gogreen.png';
 import Img4 from '../../assets/pinche.png';
 import Img5 from '../../assets/taquisimo.png';
+import Img6 from '../../assets/leicilogo.png';
 
 const data = [
     {
@@ -18,22 +19,28 @@ const data = [
       subtitle: "Branding"
     },
     {
-      id: 1,
+      id: 3,
       image: Img3,
       title: "Go Green Xela",
       subtitle: "Social Media Post"
   
     },
     {
-      id: 1,
+      id: 4,
       image: Img4,
       title: "El Pinche Xela",
       subtitle: "Social Media Post"
     },
     {
-      id: 1,
+      id: 5,
       image: Img5,
       title: "Taquisimo",
+      subtitle: "Branding"
+    },
+    {
+      id: 6,
+      image: Img6,
+      title: "Leici",
       subtitle: "Branding"
     },
   ];
