@@ -19,7 +19,7 @@ const Pricing = () => {
             <em>Q</em> 1500 <span>al mes</span>
           </h3>
 
-          <a href="https://wa.link/h7svyf" className="btn">Contratar</a>
+          <a href="https://wa.link/h7svyf" target='_blank' className="btn" rel="noreferrer">Contratar</a>
         </div>
 
         <div className="price__item best">
@@ -31,7 +31,7 @@ const Pricing = () => {
           <h3 className="price">
             <em>Q</em> 1000 <span>al mes</span>
           </h3>
-          <a href="https://wa.link/h7svyf" className="btn">Contratar</a>
+          <a href="https://wa.link/h7svyf" target='_blank' className="btn" rel="noreferrer">Contratar</a>
         </div>
 
         <div className="price__item">
@@ -42,7 +42,7 @@ const Pricing = () => {
           <h3 className="price">
             <em>Q</em> 2000 <span>al mes</span>
           </h3>
-          <a href="https://wa.link/h7svyf" className="btn">Contratar</a>
+          <a href="https://wa.link/h7svyf" target='_blank' className="btn" rel="noreferrer">Contratar</a>
         </div>
       </div>
     </div>
