@@ -4,6 +4,11 @@ import Logo from "../../assets/logo2.png";
 
 const Sidebar = () => {
   const [toggle, setToggle] = useState(false);
+
+  
+  const handleClick = () => {
+    setToggle(!toggle)
+  }
   
   return (
     <>
@@ -16,31 +21,31 @@ const Sidebar = () => {
         <div className="nav__menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#home" className="nav__link">
+              <a href="#home" className="nav__link" onClick={handleClick}>
                 <i className="icon-home"></i>
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#services" className="nav__link">
+              <a href="#services" className="nav__link" onClick={handleClick}>
                 <i className="icon-briefcase"></i>
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#work" className="nav__link">
+              <a href="#work" className="nav__link" onClick={handleClick}>
                 <i className="icon-layers"></i>
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#pricing" className="nav__link">
+              <a href="#pricing" className="nav__link" onClick={handleClick}>
                 <i className="icon-fire"></i>
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#contact" className="nav__link">
+              <a href="#contact" className="nav__link" onClick={handleClick}>
                 <i className="icon-bubble"></i>
               </a>
             </li>
