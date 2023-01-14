@@ -4,14 +4,15 @@ import Work3 from '../../assets/work3.png';
 import Work4 from '../../assets/work4.jpg';
 import Work5 from '../../assets/work5.jpg';
 import Work6 from '../../assets/work6.jpg';
-import Work7 from '../../assets/leici.png'
+import Work7 from '../../assets/leici.png';
+import Work8 from '../../assets/sanblasthumbail.png'
 
 const Menu = [
     {
       id: 1,
       image: Work1,
       title: "Social Media | Circusbar",
-      category: "Design",
+      category: "Social Media",
       link: "https://www.behance.net/gallery/152915763/Social-Media-CircusBar-Xela",
     },
 
@@ -19,7 +20,7 @@ const Menu = [
       id: 2,
       image: Work2,
       title: "Social Media | La Bodeguita",
-      category: "Design",
+      category: "Social Media",
       link: "https://www.behance.net/gallery/152971455/Social-Media-La-Bodeguita-Xela",
     },
 
@@ -27,7 +28,7 @@ const Menu = [
       id: 3,
       image: Work3,
       title: "Social Media | BurgerShop",
-      category: "Design",
+      category: "Social Media",
       link: "https://www.behance.net/gallery/155392177/Social-Media-2022",
     },
 
@@ -35,14 +36,15 @@ const Menu = [
       id: 4,
       image: Work4,
       title: "Social Media | El Pinche Xela",
-      category: "Design",
+      category: "Social Media",
+      link: "https://www.behance.net/gallery/152915137/Social-Media-El-Pinche-Xela",
     },
     {
       id: 5,
       image: Work5,
       title: "Social Media | GoGreen Xela",
-      category: "Design",
-      link: "https://www.behance.net/gallery/152915137/Social-Media-El-Pinche-Xela",
+      category: "Social Media",
+      link: "https://www.behance.net/gallery/152912551/Social-Media-GoGreen-Xela",
     },
     {
       id: 6,
@@ -57,6 +59,13 @@ const Menu = [
       title: "Branding | Taquisimo",
       category: "Branding",
       link: "https://www.behance.net/gallery/116716551/Manual-de-Identidad-Taquisimo",
+    },
+    {
+      id: 8,
+      image: Work8,
+      title: "Branding | SanBlas",
+      category: "Branding",
+      link: "https://www.behance.net/gallery/161258477/San-Blas-Branding",
     },
   ];
 
