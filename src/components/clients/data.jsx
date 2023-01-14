@@ -4,6 +4,7 @@ import Img3 from '../../assets/gogreen.png';
 import Img4 from '../../assets/pinche.png';
 import Img5 from '../../assets/taquisimo.png';
 import Img6 from '../../assets/leicilogo.png';
+import Img7 from '../../assets/sanblasLogo.png';
 
 const data = [
     {
@@ -41,6 +42,12 @@ const data = [
       id: 6,
       image: Img6,
       title: "Leici",
+      subtitle: "Branding"
+    },
+    {
+      id: 7,
+      image: Img7,
+      title: "SanBlas",
       subtitle: "Branding"
     },
   ];
