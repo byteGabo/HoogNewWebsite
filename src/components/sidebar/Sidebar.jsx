@@ -21,31 +21,31 @@ const Sidebar = () => {
         <div className="nav__menu">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="#home" className="nav__link" onClick={handleClick}>
+              <a href="#home" className="nav__link" onClick={handleClick} onMouseOver={(e) => e.target.setAttribute("title", 'Home')}>
                 <i className="icon-home"></i>
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#services" className="nav__link" onClick={handleClick}>
+              <a href="#services" className="nav__link" onClick={handleClick} onMouseOver={(e) => e.target.setAttribute("title", 'Servicios')}>
                 <i className="icon-briefcase"></i>
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#work" className="nav__link" onClick={handleClick}>
+              <a href="#work" className="nav__link" onClick={handleClick} onMouseOver={(e) => e.target.setAttribute("title", 'Proyectos')}>
                 <i className="icon-layers"></i>
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#pricing" className="nav__link" onClick={handleClick}>
+              <a href="#pricing" className="nav__link" onClick={handleClick} onMouseOver={(e) => e.target.setAttribute("title", 'Precios')}>
                 <i className="icon-fire"></i>
               </a>
             </li>
 
             <li className="nav__item">
-              <a href="#contact" className="nav__link" onClick={handleClick}>
+              <a href="#contact" className="nav__link" onClick={handleClick} onMouseOver={(e) => e.target.setAttribute("title", 'Conctacto')}>
                 <i className="icon-bubble"></i>
               </a>
             </li>
