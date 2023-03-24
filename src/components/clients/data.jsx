@@ -1,6 +1,5 @@
 import Img1 from '../../assets/bode.png';
 import Img2 from '../../assets/circus.png';
-import Img3 from '../../assets/gogreen.png';
 import Img4 from '../../assets/pinche.png';
 import Img5 from '../../assets/taquisimo.png';
 import Img6 from '../../assets/leicilogo.png';
@@ -18,13 +17,6 @@ const data = [
       image: Img2,
       title: "CircusBar Xela",
       subtitle: "Branding"
-    },
-    {
-      id: 3,
-      image: Img3,
-      title: "Go Green Xela",
-      subtitle: "Social Media Post"
-  
     },
     {
       id: 4,

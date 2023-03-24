@@ -2,7 +2,6 @@ import Work1 from '../../assets/work1.jpg';
 import Work2 from '../../assets/work2.jpg';
 import Work3 from '../../assets/work3.png';
 import Work4 from '../../assets/work4.jpg';
-import Work5 from '../../assets/work5.jpg';
 import Work6 from '../../assets/work6.jpg';
 import Work7 from '../../assets/leici.png';
 import Work8 from '../../assets/sanblasthumbail.png'
@@ -38,13 +37,6 @@ const Menu = [
       title: "Social Media | El Pinche Xela",
       category: "Social Media",
       link: "https://www.behance.net/gallery/152915137/Social-Media-El-Pinche-Xela",
-    },
-    {
-      id: 5,
-      image: Work5,
-      title: "Social Media | GoGreen Xela",
-      category: "Social Media",
-      link: "https://www.behance.net/gallery/152912551/Social-Media-GoGreen-Xela",
     },
     {
       id: 6,
